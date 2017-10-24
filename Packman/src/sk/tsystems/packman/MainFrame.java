@@ -9,8 +9,8 @@ public class MainFrame extends JFrame {
 	public MainFrame() {
 		super("PacMan");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setSize(600, 400);
-
+		setSize(800, 600);
+		getContentPane().add(new PacManPanel());
 	}
 
 	public static void main(String[] args) {
